@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lobster&family=Playfair+Display:wght@400;700&family=Recursive:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+body{
+  font-family: 'Recursive', sans-serif;
+}
+.issue-brand{
+  font-family: 'Lobster', sans-serif;
+  font-size: 1.6rem !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form label{
+  font-style: italic;
+  font-weight: lighter;
 }
+
+.col-form-label {
+
+  line-height: 0.5 !important;
+}
+
+
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Recursive', sans-serif;
+font-family: 'Roboto', sans-serif; */
